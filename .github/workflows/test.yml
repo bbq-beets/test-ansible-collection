@@ -8,6 +8,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: docker://ghcr.io/artis3n/ansible_galaxy_collection-testartifact:snapshot-9331436dafa69b166cc5cd380fc48f59e3a16f1e
+      - uses: docker://ghcr.io/artis3n/ansible_galaxy_collection-testartifact:snapshot-db890ef588e38aaa8c0a5a0d6010abd1701fd86e
         with:
           api_key: ${{ secrets.GALAXY_API_KEY }}
